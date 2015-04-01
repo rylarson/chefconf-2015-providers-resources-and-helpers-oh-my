@@ -1,0 +1,41 @@
+{
+  "name": "kickstart-hwrp",
+  "description": "Base Cookbook for HWRP",
+  "long_description": "kickstart-hwrp Cookbook\n==================\n\nUse this for a base HWRP Cookbook.  I use the term HLWRP to designate what I am inheriting from:\n\nHLWRP = Chef::Provider::LWRPBase\nHWRP = Chef::Provider",
+  "maintainer": "Brian Stajkowski",
+  "maintainer_email": "private",
+  "license": "All rights reserved",
+  "platforms": {
+
+  },
+  "dependencies": {
+
+  },
+  "recommendations": {
+
+  },
+  "suggestions": {
+
+  },
+  "conflicting": {
+
+  },
+  "providing": {
+
+  },
+  "replacing": {
+
+  },
+  "attributes": {
+
+  },
+  "groupings": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "0.1.0",
+  "source_url": "",
+  "issues_url": ""
+}

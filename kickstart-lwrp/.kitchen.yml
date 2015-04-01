@@ -1,0 +1,42 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: ubuntu-14.04
+    driver:
+      provider: virtualbox
+      box: ubuntu/trusty64
+      customize:
+        memory: 1024
+        cpus: 1
+  - name: ubuntu-12.04
+    driver:
+      provider: virtualbox
+      box: hashicorp/precise64
+      customize:
+        memory: 1024
+        cpus: 1
+  - name: centos-7.0
+    driver:
+      provider: virtualbox
+      box: insaneworks/centos
+      customize:
+        memory: 1024
+        cpus: 1
+  - name: fedora-20
+    driver:
+      provider: virtualbox
+      box: chef/fedora-20
+      customize:
+        memory: 1024
+        cpus: 1
+
+suites:
+  - name: default
+    run_list:
+      - recipe[kickstart-lwrp::default]
+    attributes:

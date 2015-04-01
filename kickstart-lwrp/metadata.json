@@ -1,0 +1,41 @@
+{
+  "name": "kickstart-lwrp",
+  "description": "Base Cookbook for LWRP",
+  "long_description": "kickstart-lwrp Cookbook\n==================\n\nUse this for a base LWRP Cookbook.  Or, use it to learn about LWRP as there is a lot of documentation in the LWRP files.",
+  "maintainer": "Brian Stajkowski",
+  "maintainer_email": "private",
+  "license": "All rights reserved",
+  "platforms": {
+
+  },
+  "dependencies": {
+
+  },
+  "recommendations": {
+
+  },
+  "suggestions": {
+
+  },
+  "conflicting": {
+
+  },
+  "providing": {
+
+  },
+  "replacing": {
+
+  },
+  "attributes": {
+
+  },
+  "groupings": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "0.1.2",
+  "source_url": "",
+  "issues_url": ""
+}

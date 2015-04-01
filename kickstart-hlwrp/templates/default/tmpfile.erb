@@ -1,0 +1,6 @@
+string_param = <%= @string_param %>
+boolean_param = <%= @boolean_param %>
+array_param = <% @array_param.each_with_index do |param, index| "#{ param } + #{ (@array_param.size - 1 != index ? ',': '') }" end -%>
+<% @hash_param.each do |k,v| -%>
+param['<%= k %>'] = <%= v %>
+<% end -%>
